@@ -1,20 +1,19 @@
 import time
 start_time = time.time()
 ###############CODE STARRS##############
-def fact(a):
-    for n in a:
-        c = 0
-        while n >= 5:
-            n //= 5
-            c += n
-            print ('c-',c)
-        print (c)
-n = int(input())
-a=[]
-for i in range(n):
-    a.append(int(input()))
-fact(a)
-# print ('final...',fact(a))
+t = int(input())
+op = []
+for i in range(t):
+    n = int(input())
+    m =list(map(int,input().split(' ')))
+    w =list(map(int,input().split(' ')))
+    m.sort()
+    w.sort()
+    hot = []
+    op.append(sum(a*b for a,b in zip(m,w)))
+for i in op:
+    print (i,sep='\n')
+
 
 ###############CODE ENDS################
 print("--- %s seconds ---" % (time.time() - start_time))

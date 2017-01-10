@@ -7,7 +7,7 @@ def fact(a):
         while n >= 5:
             n //= 5
             c += n
-            print ('c-',c)
+            
         print (c)
 n = int(input())
 a=[]
