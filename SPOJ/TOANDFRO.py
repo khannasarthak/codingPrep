@@ -1,6 +1,3 @@
-import time
-start_time = time.time()
-###############CODE STARRS##############
 import textwrap
 def func(c,s):
     for k in range(len(c)):
@@ -33,7 +30,3 @@ while True:
         string.append(input())
 
 func(column,string)
-
-
-###############CODE ENDS################
-print("--- %s seconds ---" % (time.time() - start_time))
