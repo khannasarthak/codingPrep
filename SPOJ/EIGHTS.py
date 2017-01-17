@@ -1,16 +1,13 @@
 import time
 start_time = time.time()
 ###############CODE STARRS##############
-k=[]
-n = []
-for i in range(10):
-    total = int(input())
-    more = int(input())
-
-    print((total -int((total-more)/2)))
-    print(int((total-more)/2))
-
-
+t = int(input())
+s = []
+for i in range(t):
+    a = int(input())
+    s.append((a-1)*250+192)
+for i in s:
+    print (i)
 
 
 
