@@ -1,8 +1,6 @@
 from collections import Counter
 class Solution(object):
-    def topKFrequent(self, nums, k):
-        
-        i=0
+    def topKFrequent(self, nums, k):       
         count = Counter(nums)
         return ((zip(*count.most_common(k)))[0]) 
 

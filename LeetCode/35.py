@@ -7,3 +7,6 @@ class Solution(object):
             nums.append(target)
             nums.sort()
             return (nums.index(target))
+
+# Maybe improve time complexity 
+# Other solution:   return len([x for x in nums if x<target])
