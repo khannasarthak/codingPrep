@@ -1,6 +1,5 @@
 class Solution(object):
     def isPowerOfThree(self, n):
-
         if n==0:
             return False
         else:
@@ -13,7 +12,7 @@ class Solution(object):
             return (True)
 
 # Another solution without using loops / recursion
-    return n > 0 == 3**19 % n
+#   return n > 0 == 3**19 % n
 # https://stackoverflow.com/questions/1804311/how-to-check-if-an-integer-is-a-power-of-3/24274850#24274850
 # https://leetcode.com/articles/power-of-three/
 # 
