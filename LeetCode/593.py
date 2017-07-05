@@ -14,7 +14,7 @@ class Solution(object):
         if (d2==d3 and d3*2==d1):            
             if (dist(p4,p2)==dist(p2,p3)):               
                 return True
-        if (d3==d1 and d1*2==d2):            
+        if (d3==d1 and d1*2==d2):            `
             if (dist(p4,p3)==dist(p2,p3)):                
                 return True 
         return False
