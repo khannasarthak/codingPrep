@@ -7,3 +7,4 @@ for p in range(t):
 	print (sum(list(map(int,list(a)))))
 
 # Try without inbuilt bin
+# BIT Algorithm : http://practice.geeksforgeeks.org/editorial.php?pid=500
