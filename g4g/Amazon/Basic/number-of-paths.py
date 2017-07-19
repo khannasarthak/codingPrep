@@ -7,3 +7,5 @@ t = int(input())
 for p in range(t):
 	m,n = map(int,input().split())
 	print (check(m,n))
+
+# DO AGAIN!!!
