@@ -1,13 +1,11 @@
-class Solution(object):
-    def arrayPairSum(self, nums):
-        nums.sort()
-        # a = list(zip(*(iter(nums),) * 2))
-        # k = 0
-        # for i in a:
-        # # 	print (i)
-        # 	k = k + min(i)
-        # return (k)
-        return (sum(nums[::2]))
+nums.sort()
+c = 0
+for i in range(1,len(nums)+1,2):
+	print (i)
+	# op.append(min(nums[i],nums[i+1]))
+	c += (min(nums[i],nums[i-1]))
+
+print (c)
 
 
-## ALTERNATE SOLU: minimum number will be the odd numners. Therefore, return (sum(nums[::2]))
+
