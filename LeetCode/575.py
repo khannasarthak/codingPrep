@@ -15,7 +15,7 @@
 #                 check+=1
 #         return (sis)
 
-# ALTERNATIVE USING LOGIC
+# ALTERNATIVE USING LOGIC.
 
 class Solution(object):
     def distributeCandies(self, candies):
