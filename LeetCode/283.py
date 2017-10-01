@@ -14,22 +14,12 @@ class Solution(object):
 
 # SLOWER: like 2 pointers
 
-# i = 0
-# k = 0
-# while (i<len(nums)):
-	
-# 	if k==len(nums)-1:
-# 		break
-# 	if nums[i]==0:
-# 		nums.append(nums.pop(i))
-# 		print ('ITER:',i,nums)
-# 		i=i 
-# 		k+=1
-# 	else:
-# 		i+=1
-# 		k+=1
-
-# slowest
+# zero = 0  # records the position of "0"
+#     for i in xrange(len(nums)):
+#         if nums[i] != 0:
+#             nums[i], nums[zero] = nums[zero], nums[i]
+#             zero += 1
+# # slowest
 
 # for i in range(len(nums)):
 # 	print ('CHANGE',nums)
