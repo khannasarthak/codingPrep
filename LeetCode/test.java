@@ -50,8 +50,8 @@ public class nextClosestTime {
 						}
 					}
 				}
-			}
-		}
+			
+}		}
 		return String.format("%02d:%02d", result/60, result%60);
 	}
 	
